@@ -186,10 +186,20 @@
         android:onClick="btn7" />
 
     <Button
+        android:id="@+id/ntn_borrar"
         android:text="borrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="borrar"
         android:layout_alignBottom="@+id/txtnumero"
         android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btn_api"
+        android:layout_toLeftOf="@id/ntn_borrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Api"
+        android:layout_alignBaseline="@id/ntn_borrar"
+        />
 </RelativeLayout>
